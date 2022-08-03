@@ -52,7 +52,7 @@ Add a .env file and set TWILIO_SYNC_SERVICE_SID to be the ISxx Sid for the defau
 Deploy the TaskRouter event handler function
 
 ```
-cd serverless/serverless-forAgentStatsCard
+cd serverless-forAgentStatsCard
 twilio serverless:deploy
 ```
 
