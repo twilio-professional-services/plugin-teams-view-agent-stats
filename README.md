@@ -30,7 +30,7 @@ The plugin only counts Voice call reservations but could be modified to handle c
 
 ## Setup
 
-### Pre-Requsites for Setup
+### Prerequisites for Setup
 
 - An active Twilio account with Flex provisioned. Refer to the [Flex Quickstart](https://www.twilio.com/docs/flex/quickstart/flex-basics#sign-up-for-or-sign-in-to-twilio-and-create-a-new-flex-project") to create one.
 - npm version 5.0.0 or later installed (type `npm -v` in your terminal to check)
@@ -47,7 +47,7 @@ The plugin only counts Voice call reservations but could be modified to handle c
 
 ### Serverless
 
-Add a .env file and set TWILIO_SYNC_SERVICE_SID to be the ISxx Sid for the default Sync Service for the account.
+Add an .env file to the root of the serverless folder and set TWILIO_SYNC_SERVICE_SID=ISxxx as the default Sync Service for the account.
 
 Deploy the TaskRouter event handler function
 
@@ -56,7 +56,7 @@ cd serverless-forAgentStatsCard
 twilio serverless:deploy
 ```
 
-and note the domain that is created and update the TaskRouter event stream to point to the domain that it is deployed to.
+Note the domain that is created and update the TaskRouter event stream in the workspace setting to point to the function.
 https://serverless-foragentstatscard-xxxx-dev.twil.io/taskrouter-event-handler
 
 ### Run Plugin Locally
