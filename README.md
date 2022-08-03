@@ -4,7 +4,7 @@
 
 **This software is to be considered "sample code", a Type B Deliverable, and is delivered "as-is" to the user. Twilio bears no responsibility to support the use or implementation of this software. This plugin has not been tested at scale (with multiple workers). Check your browsers performance at scale and [Sync Limits](https://www.twilio.com/docs/sync/limits) to ensure this plugin fits your needs.**
 
-## Pre-Requisites
+## Prerequisites
 
 **This plugin makes use of Paste which is a dependency on Flex 2.0**
 
